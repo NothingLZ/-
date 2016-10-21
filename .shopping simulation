@@ -22,9 +22,9 @@ while True :
                 for v in shop_list:
                     print '\t', v
                 print "********************"
-                print 'shoplist add %s, yu e is %s' % (products[choice],salary)
+                print 'shoplist add %s, salary is %s' % (products[choice],salary)
             else:
-                print ''' salaey is enough ,yu e is %s. try to buy sth:
+                print ''' salaey is enough ,salary is %s. try to buy sth:
                    ***********leave please input "quit"************ ''' % salary
         else:
             print "\033[41;1m sorry! your input, shoplist is not have \033[0m"
